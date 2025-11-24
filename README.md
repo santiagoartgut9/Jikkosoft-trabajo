@@ -6,7 +6,7 @@
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-green)
 ![Node.js](https://img.shields.io/badge/Runtime-Node.js-brightgreen)
 
-
+### Demo pública: http://3.17.37.152/
 
 ##  Objetivos del proyecto
 
@@ -104,4 +104,37 @@
 - Grupo de logs: jikkosoft-app-logs
 
 - IAM Role: EC2-S3-AccessRole-jikkosoft
+
+## Metricas: 
+
+<img width="550" height="347" alt="image" src="https://github.com/user-attachments/assets/c24bd74a-bd38-4167-9400-143d5cc96f39" />
+
+<img width="1073" height="353" alt="image" src="https://github.com/user-attachments/assets/8804b87f-6ed8-4fbd-bbf7-2816bba18e62" />
+
+<img width="1054" height="292" alt="image" src="https://github.com/user-attachments/assets/c7309320-c74f-41e0-b814-95501ddb9a94" />
+
+<img width="837" height="343" alt="image" src="https://github.com/user-attachments/assets/0da90e11-baaf-435f-bde6-e380558e41da" />
+
+
+#  Evidencias
+
+<img width="478" height="159" alt="image" src="https://github.com/user-attachments/assets/f2b919a8-0482-461a-a0ca-80df636ff885" />
+<img width="523" height="351" alt="image" src="https://github.com/user-attachments/assets/ce7200d4-971e-461d-ab09-0f6a742b4194" />
+<img width="510" height="374" alt="image" src="https://github.com/user-attachments/assets/9ccf6903-8bb5-4b35-892a-039fd0daee71" />
+<img width="471" height="431" alt="image" src="https://github.com/user-attachments/assets/7e889002-4f71-4b6c-8edb-690d718c8a92" />
+<img width="497" height="430" alt="image" src="https://github.com/user-attachments/assets/f4ee83f9-ef42-4f70-8603-ee2543f69414" />
+<img width="476" height="254" alt="image" src="https://github.com/user-attachments/assets/c27ee210-58b8-41a9-bfaa-18a736fbdfd1" />
+<img width="570" height="445" alt="image" src="https://github.com/user-attachments/assets/a39bb638-b4f4-4641-9046-f77f14e4ef55" />
+<img width="509" height="450" alt="image" src="https://github.com/user-attachments/assets/763870c2-fcd5-496a-9288-e252ae6a8613" />
+<img width="496" height="204" alt="image" src="https://github.com/user-attachments/assets/723c698f-bcee-4154-8a47-0e2e4cd6dd82" />
+
+
+
+
+
+
+
+
+
+
 
