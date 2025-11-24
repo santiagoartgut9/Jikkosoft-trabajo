@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Claves SSH
+*.pem
+*.key
+
+# Node.js
+node_modules/
+npm-debug.log*
+.yarn-integrity
+
+# Docker
+.dockerignore
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
