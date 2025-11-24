@@ -20,7 +20,52 @@
 
 - Habilitar logging hacia CloudWatch y mostrar cómo visualizar métricas básicas.
 
+# 📂 Estructura del proyecto:
 
+```text
+.
+├── .gitignore
+├── Dockerfile
+├── health-check.sh
+├── package-lock.json
+├── package.json
+├── server.js
+├── test-app.js
+│
+├── .github/
+│   └── workflows/
+│       ├── ci-cd.yml
+│       └── deploy-cv.yml
+│
+├── logs/
+│
+├── public/
+│   ├── index.html
+│   ├── script.js
+│   ├── styles.css
+│   └── img/
+│       └── profile.jpg
+│
+└── terraform/
+    ├── .terraform.lock.hcl
+    ├── jikkosoft-ec2-key.pem
+    ├── main.tf
+    ├── outputs.tf
+    ├── terraform.tfstate
+    ├── terraform.tfstate.backup
+    ├── user_data.sh
+    ├── variables.tf
+    │
+    └── .terraform/
+        └── providers/
+            └── registry.terraform.io/
+                └── hashicorp/
+                    └── aws/
+                        └── 5.100.0/
+                            └── windows_amd64/
+                                ├── LICENSE.txt
+                                └── terraform-provider-aws_v5.100.0_x5.exe
+```
 
 ###  Componentes Principales
 
@@ -50,7 +95,7 @@
 - **GitHub Actions** - CI/CD pipelines
 - **Node.js** 18 - Runtime de aplicación
 
-## Valores detectados en la implementación (referencia)
+## Valores referencia:
 
 - Instancia EC2: 
 
