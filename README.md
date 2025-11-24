@@ -20,7 +20,9 @@
 
 - Habilitar logging hacia CloudWatch y mostrar cómo visualizar métricas básicas.
 
-### 🔧 Componentes Principales
+
+
+###  Componentes Principales
 
 | Componente | Tecnología | Propósito |
 |------------|------------|-----------|
@@ -47,4 +49,14 @@
 - **Docker** - Containerización de aplicaciones
 - **GitHub Actions** - CI/CD pipelines
 - **Node.js** 18 - Runtime de aplicación
+
+## Valores detectados en la implementación (referencia)
+
+- Instancia EC2: 
+
+- Bucket S3: jikkosoft-app-storage-dev 
+
+- Grupo de logs: jikkosoft-app-logs
+
+- IAM Role: EC2-S3-AccessRole-jikkosoft
 
