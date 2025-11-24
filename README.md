@@ -6,6 +6,20 @@
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-green)
 ![Node.js](https://img.shields.io/badge/Runtime-Node.js-brightgreen)
 
+
+
+##  Objetivos del proyecto
+
+- Provisionar infraestructura básica en AWS (EC2, S3, VPC predeterminada, roles IAM).
+
+- Desplegar una aplicación Node.js (Express) mediante Docker en EC2.
+
+- Automatizar la instalación y despliegue con user_data y Terraform.
+
+- Configurar un pipeline de CI/CD en GitHub Actions para pruebas y despliegue.
+
+- Habilitar logging hacia CloudWatch y mostrar cómo visualizar métricas básicas.
+
 ### 🔧 Componentes Principales
 
 | Componente | Tecnología | Propósito |
@@ -17,6 +31,8 @@
 | **Almacenamiento** | S3 + EBS gp3 | Archivos estáticos y datos |
 | **Seguridad** | IAM Roles + Security Groups | Control de acceso |
 | **Monitoreo** | CloudWatch Logs | Logs y métricas |
+
+### Demo pública: http://3.17.37.152/
 
 ### AWS Services
 - **EC2**: Instancia t3.micro (Amazon Linux 2023)
