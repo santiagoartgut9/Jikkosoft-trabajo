@@ -38,7 +38,7 @@ jobs:
 
             'cd /home/ec2-user/cv-app',
             'rm -rf Jikkosoft',
-            'git clone https://github.com/santiagoartgut9/-Jikkosoft.git Jikkosoft',
+            'git clone https://github.com/santiagoartgut9/Jikkosoft-trabajo.git Jikkosoft',
 
             'cd Jikkosoft',
             'docker build -t jikkosoft-cv-app . --no-cache',
