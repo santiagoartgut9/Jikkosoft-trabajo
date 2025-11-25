@@ -48,7 +48,7 @@
 │
 └── terraform/
     ├── .terraform.lock.hcl
-    ├── jikkosoft-ec2-key.pem
+    ├── 
     ├── main.tf
     ├── outputs.tf
     ├── terraform.tfstate
