@@ -6,7 +6,6 @@
 ![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub%20Actions-green)
 ![Node.js](https://img.shields.io/badge/Runtime-Node.js-brightgreen)
 
-### Demo pública: http://3.17.37.152/
 
 ##  Objetivos del proyecto
 
