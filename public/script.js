@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(typeWriter, 50);
         }
     };
-    
     // Iniciar efecto de escritura después de un breve retraso
     setTimeout(typeWriter, 500);
 });

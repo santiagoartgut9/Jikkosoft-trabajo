@@ -14,7 +14,7 @@ const tests = [
 ];
 
 async function runTests() {
-  console.log('🚀 Running application tests...\n');
+  console.log('Running application tests...\n');
   
   let allPassed = true;
   
@@ -23,20 +23,20 @@ async function runTests() {
       const response = await httpRequest(test.url);
       const passed = response.statusCode === test.expectedStatus;
       
-      console.log(`${passed ? '✅' : '❌'} ${test.name}`);
+      console.log(`${passed ? '' : ''} ${test.name}`);
       console.log(`   Expected: ${test.expectedStatus}, Got: ${response.statusCode}`);
       
       if (!passed) {
         allPassed = false;
       }
     } catch (error) {
-      console.log(`❌ ${test.name}`);
+      console.log(` ${test.name}`);
       console.log(`   Error: ${error.message}`);
       allPassed = false;
     }
   }
   
-  console.log(`\n${allPassed ? '🎉 All tests passed!' : '💥 Some tests failed!'}`);
+  console.log(`\n${allPassed ? ' All tests passed!' : ' Some tests failed!'}`);
   process.exit(allPassed ? 0 : 1);
 }
 
